@@ -1,6 +1,3 @@
-# DriveTrade
-
-A ready made website for car dealers: a public showroom with car pages, filters, share links, reviews and WhatsApp enquiries, plus a dealer dashboard to manage stock, photos and branding. React (Vite) + Django REST Framework.
 
 # DriveTrade
 
