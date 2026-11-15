@@ -1,0 +1,31 @@
+DriveTrade - Proprietary Software License
+
+Copyright (c) 2026 Ishola Khalil Adesanya. All rights reserved.
+
+This software and its source code (the "Software") are the private property
+of the copyright holder. No license or right to use the Software is granted
+except as stated below or in a separate written agreement with the copyright
+holder.
+
+Without prior written permission from the copyright holder, you may not:
+
+  1. copy, modify, merge, publish, or distribute the Software or any part of it;
+  2. sell, sublicense, rent, lease, or otherwise make the Software available
+     to any third party;
+  3. use the Software, in whole or in part, to build a competing product or
+     service;
+  4. remove or change this notice.
+
+Dealers who purchase a website built on the Software receive the right to use
+that website for their own business only, under the terms of their separate
+agreement with the copyright holder.
+
+Third-party libraries used by the Software (such as React, Django and Django
+REST Framework) are not covered by this license and remain under their own
+licenses.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
