@@ -36,12 +36,12 @@ import {
 const THEME = "light";
 
 // Which seller's showroom this site shows (the slug from the admin panel).
-const SELLER_SLUG = "drivetrade";
+const SELLER_SLUG = import.meta.env.VITE_SELLER_SLUG || "drivetrade";
 
 // Fallback text. The real details come from the seller's record in the
 // database. Anything left empty there falls back to what is written here.
 const SELLER_DEFAULTS = {
-  name: "DriveTrade",
+  name: "M9 Autos",
   tagline: "Verified vehicles and direct price negotiation.",
   intro: "Browse our cars, ask about a price, and message us on WhatsApp.",
   headline: "",

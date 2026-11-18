@@ -1,0 +1,558 @@
+[
+{
+  "model": "cars.seller",
+  "pk": 1,
+  "fields": {
+    "owner": 2,
+    "name": "M9 Autos",
+    "slug": "drivetrade",
+    "tagline": "Quality cars at honest prices.",
+    "about": "DriveTrade is a car dealership based in Abuja, built around one idea: good cars should be affordable and made to last. Every car in our showroom is listed with its full specifications, honest pricing, and a stock number, so you know exactly what you are looking at before you get in touch.\r\n\r\nFound something you like? Message us on WhatsApp to ask questions, arrange a viewing, or talk about the price. Where a car is marked negotiable, we are happy to have that conversation.",
+    "email": "Drivetrade@gmail.com",
+    "phone": "07012345678",
+    "whatsapp": "2347048357497",
+    "address": "Abuja Nigeria",
+    "hours": "9am - 7pm",
+    "currency_symbol": "₦",
+    "distance_unit": "km",
+    "brands": "",
+    "logo": "",
+    "headline": "",
+    "intro": "",
+    "instagram": "@Drivetrade",
+    "website": "WWW.drivetrade.com",
+    "map_query": "MKM Autos, Wuse 2, Abuja"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 1,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-001",
+    "vin": "",
+    "make": "Toyota",
+    "model": "Rav4",
+    "year": 2021,
+    "condition": "Certified",
+    "mileage": 0,
+    "engine": "4-cylinder",
+    "horsepower": null,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "location": "Abuja",
+    "image": "cars/WhatsApp_Image_2026-10-31_at_6.40.09_AM.jpeg",
+    "price": "38500000.00",
+    "is_negotiable": true,
+    "min_price": "37000000.00",
+    "status": "available",
+    "is_featured": true,
+    "created_at": "2026-10-31T12:19:55.286Z",
+    "sold_at": null
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 2,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-002",
+    "vin": "",
+    "make": "Escalade",
+    "model": "Cadillac Escalade",
+    "year": 2021,
+    "condition": "Brand New",
+    "mileage": 0,
+    "engine": "V8",
+    "horsepower": null,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "location": "Abuja",
+    "image": "cars/Cadillac_Escalade.webp",
+    "price": "180000000.00",
+    "is_negotiable": true,
+    "min_price": "175000000.00",
+    "status": "sold",
+    "is_featured": true,
+    "created_at": "2026-11-04T02:05:48.451Z",
+    "sold_at": "2026-11-08T08:44:58.382Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 3,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-003",
+    "vin": "",
+    "make": "Mercedes-Benz",
+    "model": "GLE 63s",
+    "year": 2026,
+    "condition": "Brand New",
+    "mileage": 0,
+    "engine": "V8 Biturbo",
+    "horsepower": 612,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "location": "Abuja",
+    "image": "cars/gle_63.jpg",
+    "price": "178000000.00",
+    "is_negotiable": false,
+    "min_price": null,
+    "status": "sold",
+    "is_featured": true,
+    "created_at": "2026-11-04T02:26:17.420Z",
+    "sold_at": "2026-11-08T08:47:32.140Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 4,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-004",
+    "vin": "",
+    "make": "Lamborghini",
+    "model": "Urus",
+    "year": 2021,
+    "condition": "Brand New",
+    "mileage": 0,
+    "engine": "4.0-liter twin-turbocharged V8 engine",
+    "horsepower": 641,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "location": "Abuja",
+    "image": "cars/lambo.jpg",
+    "price": "450000000.00",
+    "is_negotiable": true,
+    "min_price": "448000000.00",
+    "status": "available",
+    "is_featured": true,
+    "created_at": "2026-11-04T07:43:38.023Z",
+    "sold_at": null
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 5,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-005",
+    "vin": "",
+    "make": "Porsche",
+    "model": "GT3 RS (992 generation)",
+    "year": 2025,
+    "condition": "Brand New",
+    "mileage": 1500,
+    "engine": "4.0 liter",
+    "horsepower": 518,
+    "drive": "RWD",
+    "transmission": "7-speed PDK dual-clutch automatic",
+    "fuel": "petrol",
+    "location": "Abuja",
+    "image": "cars/porsche.jpg",
+    "price": "690000000.00",
+    "is_negotiable": true,
+    "min_price": "687000000.00",
+    "status": "available",
+    "is_featured": true,
+    "created_at": "2026-11-04T07:56:31.728Z",
+    "sold_at": null
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 6,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-006",
+    "vin": "",
+    "make": "Bmw",
+    "model": "M6 Gran Coupe",
+    "year": 2018,
+    "condition": "Pre-Owned",
+    "mileage": 30000,
+    "engine": "Twin-Turbocharged V8",
+    "horsepower": 592,
+    "drive": "RWD",
+    "transmission": "Dual-Clutch Automatic",
+    "fuel": "Petrol",
+    "location": "Abuja",
+    "image": "cars/bmw1_oYt2zVg.jpg",
+    "price": "50000000.00",
+    "is_negotiable": true,
+    "min_price": "45000000.00",
+    "status": "sold",
+    "is_featured": false,
+    "created_at": "2026-11-04T20:28:59.891Z",
+    "sold_at": "2026-11-08T08:47:22.229Z"
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 7,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-007",
+    "vin": "",
+    "make": "Xiaomi",
+    "model": "SU7 Max",
+    "year": 2025,
+    "condition": "Brand New",
+    "mileage": 0,
+    "engine": "HyperEngine V6",
+    "horsepower": 295,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Electricity",
+    "location": "Abuja",
+    "image": "cars/xiamoi.jpg",
+    "price": "120000000.00",
+    "is_negotiable": true,
+    "min_price": "115000000.00",
+    "status": "available",
+    "is_featured": false,
+    "created_at": "2026-11-05T07:35:21.013Z",
+    "sold_at": null
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 8,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-008",
+    "vin": "",
+    "make": "Lexus",
+    "model": "Rx 350 F sport",
+    "year": 2018,
+    "condition": "Pre-Owned",
+    "mileage": 60000,
+    "engine": "3.5L V6",
+    "horsepower": 295,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "location": "Abuja",
+    "image": "cars/lexus.jpg",
+    "price": "40000000.00",
+    "is_negotiable": true,
+    "min_price": "38000000.00",
+    "status": "available",
+    "is_featured": false,
+    "created_at": "2026-11-05T08:03:31.434Z",
+    "sold_at": null
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 9,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-009",
+    "vin": "",
+    "make": "BYD",
+    "model": "Seal",
+    "year": 2025,
+    "condition": "Certified",
+    "mileage": 1500,
+    "engine": "Battery Electric Vehicle",
+    "horsepower": 523,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Electricity",
+    "location": "Abuja",
+    "image": "cars/byd.jpg",
+    "price": "73000000.00",
+    "is_negotiable": true,
+    "min_price": "68000000.00",
+    "status": "available",
+    "is_featured": true,
+    "created_at": "2026-11-05T08:14:27.536Z",
+    "sold_at": null
+  }
+},
+{
+  "model": "cars.car",
+  "pk": 10,
+  "fields": {
+    "seller": 1,
+    "stock_number": "DT-010",
+    "vin": "",
+    "make": "Tesla",
+    "model": "Cybertruck",
+    "year": 2024,
+    "condition": "Brand New",
+    "mileage": 0,
+    "engine": "Battery Electric vehicle",
+    "horsepower": 600,
+    "drive": "AWD",
+    "transmission": "Automatic",
+    "fuel": "Electric",
+    "location": "Abuja",
+    "image": "cars/cybertruck1.jpg",
+    "price": "280000000.00",
+    "is_negotiable": true,
+    "min_price": "270000000.00",
+    "status": "sold",
+    "is_featured": true,
+    "created_at": "2026-11-05T08:36:11.796Z",
+    "sold_at": "2026-11-08T08:47:18.864Z"
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 2,
+  "fields": {
+    "car": 1,
+    "image": "cars/WhatsApp_Image_2026-11-04_at_8.14.14_AM_1.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 3,
+  "fields": {
+    "car": 1,
+    "image": "cars/WhatsApp_Image_2026-11-04_at_8.14.14_AM.jpg",
+    "position": 1
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 4,
+  "fields": {
+    "car": 1,
+    "image": "cars/WhatsApp_Image_2026-11-04_at_8.14.13_AM_5.jpg",
+    "position": 2
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 5,
+  "fields": {
+    "car": 1,
+    "image": "cars/WhatsApp_Image_2026-11-04_at_8.14.13_AM_4.jpg",
+    "position": 3
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 6,
+  "fields": {
+    "car": 1,
+    "image": "cars/WhatsApp_Image_2026-11-04_at_8.14.13_AM_3.jpg",
+    "position": 4
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 7,
+  "fields": {
+    "car": 4,
+    "image": "cars/Lamborghini.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 8,
+  "fields": {
+    "car": 5,
+    "image": "cars/Porsche1.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 9,
+  "fields": {
+    "car": 5,
+    "image": "cars/porsche2.jpg",
+    "position": 1
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 10,
+  "fields": {
+    "car": 6,
+    "image": "cars/bmw2.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 11,
+  "fields": {
+    "car": 6,
+    "image": "cars/bmw1.jpg",
+    "position": 1
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 12,
+  "fields": {
+    "car": 7,
+    "image": "cars/xiaomi1.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 14,
+  "fields": {
+    "car": 8,
+    "image": "cars/lexus1.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 15,
+  "fields": {
+    "car": 8,
+    "image": "cars/Lexus-RX-23-1024x682.jpg",
+    "position": 1
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 16,
+  "fields": {
+    "car": 9,
+    "image": "cars/byd2.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 17,
+  "fields": {
+    "car": 9,
+    "image": "cars/byd1.jpg",
+    "position": 1
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 18,
+  "fields": {
+    "car": 9,
+    "image": "cars/byd_VBR9GT7.jpg",
+    "position": 2
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 19,
+  "fields": {
+    "car": 7,
+    "image": "cars/xiamoi_car_sDJhx7V.jpg",
+    "position": 1
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 20,
+  "fields": {
+    "car": 10,
+    "image": "cars/cybertruck_interior.jpg",
+    "position": 0
+  }
+},
+{
+  "model": "cars.carimage",
+  "pk": 21,
+  "fields": {
+    "car": 10,
+    "image": "cars/cybertruck.jpg",
+    "position": 1
+  }
+},
+{
+  "model": "cars.review",
+  "pk": 1,
+  "fields": {
+    "seller": 1,
+    "author": "Qudus",
+    "rating": 5,
+    "text": "I love the customer service and they are very honest with there prices, I was able to negotiate to my budget and they remained patient with me all the way",
+    "car_name": "Escalade",
+    "created_at": "2026-11-08T07:39:42.272Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": 2,
+  "fields": {
+    "seller": 1,
+    "author": "Nifemi",
+    "rating": 5,
+    "text": "Best Automobile in Abuja, I got my dream car exactly the way I wanted, and I got a free tint",
+    "car_name": "GLE 63s",
+    "created_at": "2026-11-08T07:44:03.388Z"
+  }
+},
+{
+  "model": "cars.review",
+  "pk": 3,
+  "fields": {
+    "seller": 1,
+    "author": "BYKHALIL",
+    "rating": 5,
+    "text": "Definitely patronizing again, there website was easy to use and response to messages were swift, also didn't know what I was expecting but I got exactly what I was seeking, thank you DriveTrade Autos.",
+    "car_name": "Porsche GT3 RS",
+    "created_at": "2026-11-08T07:46:14.190Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$ISEeQJGZQQFl10xxYPR0xK$V9djO2zzg37uCihSHobnW3cc7ex36ug7r7B4UqYlpxs=",
+    "last_login": "2026-10-31T04:41:46.713Z",
+    "is_superuser": true,
+    "username": "BYKHALIL",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-31T04:36:46.031Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$radBmBAUAJi9ohE0MgoNMl$18+8DqhnlUK8DfiSrZfbPG2PCHfIf7sMXwFq59nsh3U=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "DriveTrade",
+    "first_name": "Drive",
+    "last_name": "Trade",
+    "email": "isholakhalil11@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-03T17:12:30Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "931ce9d9d6965a4ede3b60c28ffcc245af62fedb",
+  "fields": {
+    "user": 2,
+    "created": "2026-11-04T01:25:35.605Z"
+  }
+}
+]
